@@ -1,0 +1,49 @@
+p{
+    color: aquamarine;
+    font-family: Courier;
+    font-size: 160%;
+    background-color: rgb(69, 191, 228);
+    border: solid blue 4px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: aqua;
+    font-family: Verdana;
+    font-size: 300%;
+    background-color: azure;
+    border-radius: 20px 30px 20px 0;
+}
+body{
+    background-color: rgb(197, 246, 255);
+}
+ul {
+    width: 6%;
+    height: 20%;
+}
+img {
+    width: 120px; 
+    height: 150px;
+}
+table,
+th,
+td {
+    border: 3px solid rgb(255, 0, 128);
+    border-collapse: collapse;
+    border-color: rgb(255, 0, 200);
+    background-color: rgb(252, 164, 244);
+}
+th,
+td {
+    padding: 5px;
+    text-align: center;
+}
+li
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+caption
+{   border: solid rgb(255, 0, 200) 4px;
+    color: rgb(221, 131, 248);
+    width: 100px;
+}

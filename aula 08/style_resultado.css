@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(133, 230, 154);
+    text-align: center;
+}
+.result {
+    background-color: aliceblue;
+    padding: 20px;
+    border: 1px solid rgb(2, 248, 64);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(136, 223, 114);
+    width: 300px;
+}
