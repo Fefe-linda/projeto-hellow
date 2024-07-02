@@ -1,0 +1,10 @@
+.navbar-custom {
+    background-color: #00e1ff !important;
+}
+#map {  height: 400px;
+    width: 100%;
+
+}
+body {
+    background-color: rgb(181, 243, 240);
+}
