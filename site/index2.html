@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags necessárias -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link para o CSS do Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Exemplo de Card Bootstrap</title>
+</head>
+
+<body>
+    <main>
+        <!-- Seção do carrossel -->
+        <section class="container mt-5">
+            <!-- Início do carrossel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicadores do carrossel -->
+                <ol class="carousel-indicators">
+                    <!-- Indicador para o primeiro slide, ativo por padrão -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <!-- Indicador para o segundo slide -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <!-- Indicador para o terceiro slide -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Container dos itens do carrossel -->
+                <div class="carousel-inner">
+                    <!-- Primeiro item do carrossel (ativo por padrão) -->
+                    <div class="carousel-item active">
+                        <!-- Imagem do primeiro slide -->
+                        <img class="d-block w-100" src="stable-diffusion-imagem (1).jpg" alt="Primeiro Slide">
+                    </div>
+
+                    <!-- Segundo item do carrossel -->
+                    <div class="carousel-item">
+                        <!-- Imagem do segundo slide -->
+                        <img class="d-block w-100" src="stable-diffusion-imagem (1).jpg" alt="Segundo Slide">
+                    </div>
+
+                    <!-- Terceiro item do carrossel -->
+                    <div class="carousel-item">
+                        <!-- Imagem do terceiro slide -->
+                        <img class="d-block w-100" src="stable-diffusion-imagem (1).jpg" Terceiro Slide">
+                    </div>
+                </div>
+
+                <!-- Controle para o slide anterior -->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <!-- Ícone do controle anterior -->
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <!-- Texto acessível para leitores de tela -->
+                    <span class="sr-only">Anterior</span>
+                </a>
+
+                <!-- Controle para o próximo slide -->
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <!-- Ícone do controle próximo -->
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <!-- Texto acessível para leitores de tela -->
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+            <!-- Fim do carrossel -->
+
+        </section>
+
+        <!-- Seção dos cards -->
+        <section class="container mt-5">
+            <!-- Início de uma linha (row) no sistema de grid do Bootstrap -->
+            <div class="row">
+                <!-- Primeira coluna ocupando 1/4 da largura total em dispositivos médios e maiores -->
+                <div class="col-md-3">
+                    <!-- Início do primeiro card -->
+                    <div class="card">
+                        <!-- Imagem do primeiro card -->
+                        <img src="imagens/prefeitura.png" class="card-img-top" alt="Imagem 1">
+                        <!-- Corpo do primeiro card -->
+                        <div class="card-body">
+                            <!-- Título do primeiro card -->
+                            <h5 class="card-title">Card 1</h5>
+                            <!-- Texto do primeiro card -->
+                            <p class="card-text">Descrição do primeiro card.</p>
+                            <!-- Botão do primeiro card -->
+                            <a href="#" class="btn btn-primary">Clique aqui</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Segunda coluna ocupando 1/4 da largura total em dispositivos médios e maiores -->
+                <div class="col-md-3">
+                    <!-- Início do segundo card -->
+                    <div class="card">
+                        <!-- Imagem do segundo card -->
+                        <img src="imagens/Magia-de-Natal.png" class="card-img-top" alt="Imagem 2">
+                        <!-- Corpo do segundo card -->
+                        <div class="card-body">
+                            <!-- Título do segundo card -->
+                            <h5 class="card-title">Card 2</h5>
+                            <!-- Texto do segundo card -->
+                            <p class="card-text">Descrição do segundo card.</p>
+                            <!-- Botão do segundo card -->
+                            <a href="#" class="btn btn-primary">Clique aqui</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Terceira coluna ocupando 1/4 da largura total em dispositivos médios e maiores -->
+                <div class="col-md-3">
+                    <!-- Início do terceiro card -->
+                    <div class="card">
+                        <!-- Imagem do terceiro card -->
+                        <img src="imagens/prefeitura.png" class="card-img-top" alt="Imagem 3">
+                        <!-- Corpo do terceiro card -->
+                        <div class="card-body">
+                            <!-- Título do terceiro card -->
+                            <h5 class="card-title">Card 3</h5>
+                            <!-- Texto do terceiro card -->
+                            <p class="card-text">Descrição do terceiro card.</p>
+                            <!-- Botão do terceiro card -->
+                            <a href="#" class="btn btn-primary">Clique aqui</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Quarta coluna ocupando 1/4 da largura total em dispositivos médios e maiores -->
+                <div class="col-md-3">
+                    <!-- Início do quarto card -->
+                    <div class="card">
+                        <!-- Imagem do quarto card -->
+                        <img src="imagens/download .png" class="card-img-top" alt="Imagem 4">
+                        <!-- Corpo do quarto card -->
+                        <div class="card-body">
+                            <!-- Título do quarto card -->
+                            <h5 class="card-title">Card 4</h5>
+                            <!-- Texto do quarto card -->
+                            <p class="card-text">Descrição do quarto card.</p>
+                            <!-- Botão do quarto card -->
+                            <a href="#" class="btn btn-primary">Clique aqui</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts JavaScript do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
